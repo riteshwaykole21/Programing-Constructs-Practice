@@ -11,6 +11,7 @@ namespace BasicProgram
         static void Main(string[] args)
         {
             Console.WriteLine("1 : check Number Are Equal Or Not");
+            Console.WriteLine("2 : Vote Eligibility Criteria");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -18,6 +19,10 @@ namespace BasicProgram
                 case 1:
                     CheckEqual check = new CheckEqual();
                     check.Numbers();
+                    break;
+                case 2:
+                    AgeProblem ageProblem = new AgeProblem();
+                    ageProblem.Numbers();
                     break;
             }
             Console.ReadLine();

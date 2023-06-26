@@ -12,13 +12,13 @@ namespace BasicProgram
         {
             Console.WriteLine("Enter Your Age");
             int Age = Convert.ToInt32(Console.ReadLine());
-            if(Age <= 18)
+            if(Age >= 18)
             {
-                Console.WriteLine("He/She Eligible For Own vote");
+                Console.WriteLine("you are Eligible For vote");
             }
             else
             {
-                Console.WriteLine("He/she DoesNot Eligible For Vote");
+                Console.WriteLine("you are not Eligible For Vote");
             }
         }
     }
