@@ -14,6 +14,7 @@ namespace BasicProgram
             Console.WriteLine("2 : Vote Eligibility Criteria");
             Console.WriteLine("3 : Check Number Even Or Odd");
             Console.WriteLine("4 : Largest Number Among Three Number");
+            Console.WriteLine("5 : Addmission Process Criteria");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -33,6 +34,10 @@ namespace BasicProgram
                 case 4:
                     LargestNumber Large = new LargestNumber();
                     Large.Number(); 
+                    break;
+                case 5:
+                    AddmissionPrcess Add = new AddmissionPrcess();
+                    Add.Numbers();  
                     break;
             }
             Console.ReadLine();
