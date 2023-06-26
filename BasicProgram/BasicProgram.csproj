@@ -46,6 +46,7 @@
     <Compile Include="AgeProblem.cs" />
     <Compile Include="CheckEqual.cs" />
     <Compile Include="EvenOrOdd.cs" />
+    <Compile Include="LargestNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
