@@ -16,6 +16,7 @@ namespace BasicProgram
             Console.WriteLine("4 : Largest Number Among Three Number");
             Console.WriteLine("5 : Addmission Process Criteria");
             Console.WriteLine("6 : Aretmatic Opration");
+            Console.WriteLine("7 : Table");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -43,6 +44,10 @@ namespace BasicProgram
                 case 6:
                     AreOprations add = new AreOprations();  
                     add.Numbers();
+                    break;
+                case 7:
+                    Table obj = new Table();
+                    obj.Number();
                     break;
             }
             Console.ReadLine();
