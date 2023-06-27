@@ -17,6 +17,7 @@ namespace BasicProgram
             Console.WriteLine("5 : Addmission Process Criteria");
             Console.WriteLine("6 : Aretmatic Opration");
             Console.WriteLine("7 : Table");
+            Console.WriteLine("8 : Sum Of Squre Upto The Number");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -48,6 +49,10 @@ namespace BasicProgram
                 case 7:
                     Table obj = new Table();
                     obj.Number();
+                    break;
+                case 8:
+                    SqureNumber squreNumber = new SqureNumber();
+                    squreNumber.Numbers();
                     break;
             }
             Console.ReadLine();

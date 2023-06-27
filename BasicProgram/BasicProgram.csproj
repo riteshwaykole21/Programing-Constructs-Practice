@@ -51,6 +51,7 @@
     <Compile Include="LargestNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqureNumber.cs" />
     <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
