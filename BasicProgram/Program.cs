@@ -15,6 +15,7 @@ namespace BasicProgram
             Console.WriteLine("3 : Check Number Even Or Odd");
             Console.WriteLine("4 : Largest Number Among Three Number");
             Console.WriteLine("5 : Addmission Process Criteria");
+            Console.WriteLine("6 : Aretmatic Opration");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -38,6 +39,10 @@ namespace BasicProgram
                 case 5:
                     AddmissionPrcess Add = new AddmissionPrcess();
                     Add.Numbers();  
+                    break;
+                case 6:
+                    AreOprations add = new AreOprations();  
+                    add.Numbers();
                     break;
             }
             Console.ReadLine();
