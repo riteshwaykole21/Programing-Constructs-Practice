@@ -18,6 +18,7 @@ namespace BasicProgram
             Console.WriteLine("6 : Aretmatic Opration");
             Console.WriteLine("7 : Table");
             Console.WriteLine("8 : Sum Of Squre Upto The Number");
+            Console.WriteLine("9 : Factorial Numbers");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -53,6 +54,10 @@ namespace BasicProgram
                 case 8:
                     SqureNumber squreNumber = new SqureNumber();
                     squreNumber.Numbers();
+                    break;
+                case 9:
+                    FacrorialNumber facrorialNumber = new FacrorialNumber();
+                    facrorialNumber.Numbers();
                     break;
             }
             Console.ReadLine();

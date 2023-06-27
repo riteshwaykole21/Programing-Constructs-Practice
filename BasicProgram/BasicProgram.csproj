@@ -48,6 +48,7 @@
     <Compile Include="AreOprations.cs" />
     <Compile Include="CheckEqual.cs" />
     <Compile Include="EvenOrOdd.cs" />
+    <Compile Include="facrorialNumber.cs" />
     <Compile Include="LargestNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
