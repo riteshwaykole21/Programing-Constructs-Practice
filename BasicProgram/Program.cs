@@ -19,6 +19,8 @@ namespace BasicProgram
             Console.WriteLine("7 : Table");
             Console.WriteLine("8 : Sum Of Squre Upto The Number");
             Console.WriteLine("9 : Factorial Numbers");
+            Console.WriteLine("10 :Calculate Year");
+            Console.WriteLine("11 : Number Of Days In Months");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -58,6 +60,14 @@ namespace BasicProgram
                 case 9:
                     FacrorialNumber facrorialNumber = new FacrorialNumber();
                     facrorialNumber.Numbers();
+                    break;
+                case 10:
+                    Demo demo = new Demo();
+                    demo.Numbers();
+                    break;
+                case 11:
+                    NumberOfDays numberOfDays = new NumberOfDays();
+                    numberOfDays.Number();
                     break;
             }
             Console.ReadLine();
