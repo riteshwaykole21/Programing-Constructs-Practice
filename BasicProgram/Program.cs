@@ -22,6 +22,7 @@ namespace BasicProgram
             Console.WriteLine("10 :Calculate Year");
             Console.WriteLine("11 : Number Of Days In Months");
             Console.WriteLine("12 : Word Reverse Using While Loop");
+            Console.WriteLine("13 : Sum Of 5 Natural Number");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -73,6 +74,10 @@ namespace BasicProgram
                 case 12:
                     ReverseWord reverseWord = new ReverseWord();
                     reverseWord.Numbers();
+                    break;
+                case 13:
+                    NumberSum sum = new NumberSum();
+                    sum.Number();
                     break;
             }
             Console.ReadLine();
