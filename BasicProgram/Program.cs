@@ -21,6 +21,7 @@ namespace BasicProgram
             Console.WriteLine("9 : Factorial Numbers");
             Console.WriteLine("10 :Calculate Year");
             Console.WriteLine("11 : Number Of Days In Months");
+            Console.WriteLine("12 : Word Reverse Using While Loop");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -68,6 +69,10 @@ namespace BasicProgram
                 case 11:
                     NumberOfDays numberOfDays = new NumberOfDays();
                     numberOfDays.Number();
+                    break;
+                case 12:
+                    ReverseWord reverseWord = new ReverseWord();
+                    reverseWord.Numbers();
                     break;
             }
             Console.ReadLine();
